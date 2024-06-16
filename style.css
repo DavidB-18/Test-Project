@@ -1,0 +1,64 @@
+/******************TAG SELECTOR*****************/
+body{
+    background-color: #FEC868;
+}
+hr {
+border: dotted;
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-width: 10px;
+border-color: blueviolet;
+width: 30%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 20px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  table th,
+  table td {
+    padding: 20px 51px 35px;
+  }
+  img{
+    border-radius: 30%;
+  }
+  h1, h2, h3{
+    color: blueviolet;
+  }
+  a:hover{
+    color: red;
+  }
+ 
+
+
+
+  /*********************CLASS SELECTOR******************/
+   div{
+    text-align: center;
+  }
+  .parent{
+    text-align: center;
+  }
+  .parent > ul{
+    display: inline-block;
+    text-align: justify;
+  }
+  .big{
+    font-size: 100px;
+  }
+  .another-parent{
+    text-align:center;
+  }
+  .another-parent > ol{
+    display: inline-block;
+    text-align: justify;
+  }
+
+
+ 
+  
